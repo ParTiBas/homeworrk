@@ -1,0 +1,51 @@
+:root{
+    --color-primary-dark:#31261A;
+    --color-primary-light: #FAF4EA;
+    --color-brand-dark: #465929;
+    --color-brand-light: #819B57;
+}
+
+/* base */
+body{
+    color: var(--color-primary-dark);
+}
+ul{
+    list-style-type: none;
+}
+/* hero section */
+.hero-tytle{
+    color: var(--color-primary-light);
+}
+.hero-tytle .accent {
+    color: var(--color-brand-light);
+}
+/* button */
+.button{
+color: var(--color-primary-light);
+background-color: var(--color-brand-light);
+border-radius: 8px;
+border: 2px solid var(--color-brand-light)
+}
+.button:hover{
+    background-color: transparent;
+    color: var(--color-brand-dark);
+    cursor: pointer;
+}
+/* links */
+.link{
+    color: var(--color-primary-light);
+}
+.link:hover{
+    color: var(--color-brand-light);
+}
+/* adventages section */
+.andventages-list{
+    color: var(--color-primary-light);
+    background-color: var(--color-brand-light);
+}
+.section-tytle{
+    color: var(--color-primary-dark);
+}
+.section-tytle .accent {
+    color: var(--color-brand-dark);
+}
