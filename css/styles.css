@@ -110,6 +110,7 @@ ul{
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
+    
 }
 .hero-tytle{
     color: var(--color-primary-light);
@@ -228,6 +229,8 @@ padding: 16px 0;
         border-top-right-radius: 4px;
         border-bottom-right-radius: 4px;
         border-bottom-left-radius: 200px;
+        background: linear-gradient(102.76deg, rgba(18, 18, 17, 0.78) 2.03%, rgba(18, 18, 17, 0.6) 58.46%, rgba(18, 18, 17, 0) 90.36%);
+
 }
 /* format section */
 .formats-tytle{
@@ -257,6 +260,27 @@ padding: 16px 0;
     font-size: 14px;
     font-weight: 300;
 }
+/* Carosel-section */
+.carousel-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 50%;
+    fill: var(--color-primary-dark);
+    border: 1px solid var(--color-primary-dark);
+}
+
+.carousel-button:hover{
+    background-color: var(--color-primary-dark);
+    fill: var(--color-primary-light);
+    
+    }
+
 /* contacts-section */
 .contacts-tytle{
     margin-bottom: 16px;
@@ -280,6 +304,9 @@ padding: 16px 0;
 }
 .address-link:hover {
     color: var(--color-brand-normal);
+}
+.address-icon{
+    fill: var(--color-primary-light);
 }
 .address-copyright{
     color: #A18268;
